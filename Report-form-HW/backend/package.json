@@ -1,0 +1,36 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Fifth assignment of Internet Engineering",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "startDev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mahtab2/HW1_InternetEngineering_99.git"
+  },
+  "author": "Mahtab Sarlak",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.0.2",
+    "express": "^4.17.1",
+    "express-validator": "^6.4.0",
+    "geojson-validation": "^0.2.1",
+    "node-fetch": "^2.6.0",
+    "whiskers": "^0.4.0",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "nodemon": "^2.0.2"
+  },
+  "engines": {
+    "node": "12.14.1"
+  }
+}
