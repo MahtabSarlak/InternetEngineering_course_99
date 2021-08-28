@@ -1,0 +1,17 @@
+.reportslist {
+}
+@media only screen and (max-aspect-ratio: 4/3) {
+  .reportslist {
+    padding-top: 20px;
+    padding-bottom: 70px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+@media only screen and (min-aspect-ratio: 4/3) {
+  .reportslist {
+    padding-top: 20px;
+    margin-right: 140px;
+    margin-left: 20px;
+  }
+}

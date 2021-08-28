@@ -1,0 +1,33 @@
+.errContainer {
+  color: rgba(19, 55, 66, 0.897);
+  padding: 50px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+}
+
+@media only screen and (min-aspect-ratio: 4/3) {
+  .errContainer {
+    padding-right: 100px;
+  }
+}
+.errorText {
+  vertical-align: middle;
+}
+.errorText h4 {
+  margin: 0 auto;
+  vertical-align: middle;
+}
+
+.errorText h1 {
+  margin: 0 auto;
+  margin-bottom: 20px;
+  font-size: 50px;
+  display: inline-block;
+  padding-bottom: 10px;
+  animation: type 0.5s alternate infinite;
+}

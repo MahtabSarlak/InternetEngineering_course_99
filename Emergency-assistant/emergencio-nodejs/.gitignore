@@ -1,0 +1,22 @@
+# Linux
+.directory
+*~
+
+
+# yarn
+node_modules
+yarn.lock
+
+#log
+*.log
+*.gz
+
+# # env
+# .env
+# *.env
+
+# Coveralls
+coverage
+
+# Benchmarking
+benchmarks/graphs
